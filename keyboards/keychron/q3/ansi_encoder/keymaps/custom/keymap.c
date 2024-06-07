@@ -160,10 +160,10 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max){
 const uint16_t PROGMEM esc[] = {KC_F, KC_J, COMBO_END};
 const uint16_t PROGMEM lcmd[] = {KC_J, KC_SPC, COMBO_END};
 
-const uint16_t PROGMEM ctrl_c[] = {KC_C, KC_V, COMBO_END};
-const uint16_t PROGMEM ctrl_v[] = {KC_X, KC_C, COMBO_END};
-const uint16_t PROGMEM ctrl_x[] = {KC_Z, KC_X, COMBO_END};
-const uint16_t PROGMEM ctrl_z[] = {KC_X, KC_C, KC_V, COMBO_END};
+const uint16_t PROGMEM ctrl_c[] = {KC_D, KC_F, COMBO_END};
+const uint16_t PROGMEM ctrl_v[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM ctrl_x[] = {KC_A, KC_S, COMBO_END};
+const uint16_t PROGMEM ctrl_z[] = {KC_S, KC_D, KC_F, COMBO_END};
 
 const uint16_t PROGMEM delete_letter[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM delete_letter_del[] = {KC_J, KC_L, COMBO_END};
