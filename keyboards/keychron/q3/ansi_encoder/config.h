@@ -25,3 +25,8 @@
 
 /* Enable CapsLcok LED */
 #define CAPS_LOCK_LED_INDEX 50
+
+#define TAPPING_TERM 200
+
+//#define COMBO_NO_TIMER
+#define COMBO_SHOULD_TRIGGER
